@@ -1,6 +1,8 @@
 <script setup>
 import { useStorage } from "../composables/useStorage.js";
-let food = useStorage('food', 'tacos');
+
+let food = useStorage("food", "salad");
+
 </script>
 
 <template>
